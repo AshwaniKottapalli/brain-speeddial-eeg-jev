@@ -1,0 +1,12 @@
+.env
+.venv/
+data/
+cache/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+# large per-window probability dumps (regenerable with experiments/speeddial_eval.py)
+results/speeddial_eegbci_*.json
+results/two_layer_rows_*.json
+results/jevgate*_eegbci_*.json

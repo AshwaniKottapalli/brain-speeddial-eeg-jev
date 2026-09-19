@@ -1,0 +1,11 @@
+mne==1.13.2
+moabb==1.7.2
+numpy==2.5.3
+pandas==3.0.6
+pyriemann==0.12
+python-dotenv==1.2.3
+scikit-learn==1.9.1
+scipy==1.18.1
+torch==2.14.0
+tqdm==4.70.1
+typesafe-sdk==0.7.0

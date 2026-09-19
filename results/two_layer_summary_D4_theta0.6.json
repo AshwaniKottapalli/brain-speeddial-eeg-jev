@@ -1,0 +1,126 @@
+{
+ "summary": {
+  "0.7_2_A2": {
+   "l1_detect": 0.96,
+   "l1_fa_h": 27.599999999999998,
+   "action_given_genuine": 0.49,
+   "accidental_h_unattended": 6.0,
+   "accidental_h_attendedNO": 7.199999999999999,
+   "e2e_latency": 8.639455782312925,
+   "reduction": 0.7826086956521738
+  },
+  "0.7_2_A3": {
+   "l1_detect": 0.96,
+   "l1_fa_h": 27.599999999999998,
+   "action_given_genuine": 0.47,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": 8.4,
+   "e2e_latency": 8.574468085106382,
+   "reduction": 0.9565217391304348
+  },
+  "0.7_2_B": {
+   "l1_detect": 0.96,
+   "l1_fa_h": 27.599999999999998,
+   "action_given_genuine": 0.8333333333333334,
+   "accidental_h_unattended": 4.8,
+   "accidental_h_attendedNO": NaN,
+   "e2e_latency": 7.372,
+   "reduction": 0.8260869565217391
+  },
+  "0.8_2_A2": {
+   "l1_detect": 0.9333333333333333,
+   "l1_fa_h": 14.399999999999999,
+   "action_given_genuine": 0.43333333333333335,
+   "accidental_h_unattended": 4.8,
+   "accidental_h_attendedNO": 1.2,
+   "e2e_latency": 8.984615384615385,
+   "reduction": 0.6666666666666666
+  },
+  "0.8_2_A3": {
+   "l1_detect": 0.9333333333333333,
+   "l1_fa_h": 14.399999999999999,
+   "action_given_genuine": 0.42,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": 0.0,
+   "e2e_latency": 8.984126984126984,
+   "reduction": 0.9166666666666666
+  },
+  "0.8_2_B": {
+   "l1_detect": 0.9333333333333333,
+   "l1_fa_h": 14.399999999999999,
+   "action_given_genuine": 0.7366666666666667,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": NaN,
+   "e2e_latency": 7.5565610859728505,
+   "reduction": 0.9166666666666666
+  },
+  "0.9_2_A2": {
+   "l1_detect": 0.82,
+   "l1_fa_h": 4.8,
+   "action_given_genuine": 0.39,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": 1.2,
+   "e2e_latency": 9.504273504273504,
+   "reduction": 0.75
+  },
+  "0.9_2_A3": {
+   "l1_detect": 0.82,
+   "l1_fa_h": 4.8,
+   "action_given_genuine": 0.37333333333333335,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": 1.2,
+   "e2e_latency": 9.4375,
+   "reduction": 0.75
+  },
+  "0.9_2_B": {
+   "l1_detect": 0.82,
+   "l1_fa_h": 4.8,
+   "action_given_genuine": 0.5366666666666666,
+   "accidental_h_unattended": 0.0,
+   "accidental_h_attendedNO": NaN,
+   "e2e_latency": 7.838509316770186,
+   "reduction": 1.0
+  },
+  "0.75_3_A2": {
+   "l1_detect": 0.9066666666666666,
+   "l1_fa_h": 9.6,
+   "action_given_genuine": 0.47,
+   "accidental_h_unattended": 4.8,
+   "accidental_h_attendedNO": 0.0,
+   "e2e_latency": 9.907801418439718,
+   "reduction": 0.5
+  },
+  "0.75_3_A3": {
+   "l1_detect": 0.9066666666666666,
+   "l1_fa_h": 9.6,
+   "action_given_genuine": 0.45666666666666667,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": 1.2,
+   "e2e_latency": 9.83941605839416,
+   "reduction": 0.875
+  },
+  "0.75_3_B": {
+   "l1_detect": 0.9066666666666666,
+   "l1_fa_h": 9.6,
+   "action_given_genuine": 0.6933333333333334,
+   "accidental_h_unattended": 1.2,
+   "accidental_h_attendedNO": NaN,
+   "e2e_latency": 8.3125,
+   "reduction": 0.875
+  }
+ },
+ "D": 4.0,
+ "theta": 0.6,
+ "subjects": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ]
+}

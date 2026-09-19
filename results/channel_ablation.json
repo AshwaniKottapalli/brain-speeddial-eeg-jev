@@ -1,0 +1,882 @@
+{
+ "subjects": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "curves": {
+  "all30_K1": [
+   {
+    "detect": 0.9966666666666667,
+    "fa_per_hour": 234.0,
+    "latency_median": 3.0,
+    "tau": 0.5,
+    "K": 1
+   },
+   {
+    "detect": 0.9933333333333333,
+    "fa_per_hour": 190.79999999999998,
+    "latency_median": 3.0,
+    "tau": 0.55,
+    "K": 1
+   },
+   {
+    "detect": 0.99,
+    "fa_per_hour": 162.0,
+    "latency_median": 3.0,
+    "tau": 0.6,
+    "K": 1
+   },
+   {
+    "detect": 0.99,
+    "fa_per_hour": 135.6,
+    "latency_median": 3.0,
+    "tau": 0.65,
+    "K": 1
+   },
+   {
+    "detect": 0.98,
+    "fa_per_hour": 110.39999999999999,
+    "latency_median": 3.0,
+    "tau": 0.7,
+    "K": 1
+   },
+   {
+    "detect": 0.9733333333333334,
+    "fa_per_hour": 84.0,
+    "latency_median": 3.0,
+    "tau": 0.75,
+    "K": 1
+   },
+   {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 66.0,
+    "latency_median": 3.0,
+    "tau": 0.8,
+    "K": 1
+   },
+   {
+    "detect": 0.94,
+    "fa_per_hour": 43.2,
+    "latency_median": 3.0,
+    "tau": 0.85,
+    "K": 1
+   },
+   {
+    "detect": 0.8966666666666666,
+    "fa_per_hour": 22.8,
+    "latency_median": 4.0,
+    "tau": 0.9,
+    "K": 1
+   },
+   {
+    "detect": 0.7733333333333333,
+    "fa_per_hour": 8.4,
+    "latency_median": 4.0,
+    "tau": 0.95,
+    "K": 1
+   }
+  ],
+  "all30_K2": [
+   {
+    "detect": 0.9833333333333333,
+    "fa_per_hour": 76.8,
+    "latency_median": 4.0,
+    "tau": 0.5,
+    "K": 2
+   },
+   {
+    "detect": 0.98,
+    "fa_per_hour": 64.8,
+    "latency_median": 4.0,
+    "tau": 0.55,
+    "K": 2
+   },
+   {
+    "detect": 0.9766666666666667,
+    "fa_per_hour": 56.4,
+    "latency_median": 4.0,
+    "tau": 0.6,
+    "K": 2
+   },
+   {
+    "detect": 0.97,
+    "fa_per_hour": 46.8,
+    "latency_median": 4.0,
+    "tau": 0.65,
+    "K": 2
+   },
+   {
+    "detect": 0.96,
+    "fa_per_hour": 39.599999999999994,
+    "latency_median": 4.0,
+    "tau": 0.7,
+    "K": 2
+   },
+   {
+    "detect": 0.95,
+    "fa_per_hour": 26.4,
+    "latency_median": 4.0,
+    "tau": 0.75,
+    "K": 2
+   },
+   {
+    "detect": 0.9333333333333333,
+    "fa_per_hour": 20.400000000000002,
+    "latency_median": 4.0,
+    "tau": 0.8,
+    "K": 2
+   },
+   {
+    "detect": 0.89,
+    "fa_per_hour": 13.2,
+    "latency_median": 5.0,
+    "tau": 0.85,
+    "K": 2
+   },
+   {
+    "detect": 0.82,
+    "fa_per_hour": 4.8,
+    "latency_median": 5.0,
+    "tau": 0.9,
+    "K": 2
+   },
+   {
+    "detect": 0.6566666666666666,
+    "fa_per_hour": 1.2,
+    "latency_median": 5.0,
+    "tau": 0.95,
+    "K": 2
+   }
+  ],
+  "all30_K3": [
+   {
+    "detect": 0.9766666666666667,
+    "fa_per_hour": 34.800000000000004,
+    "latency_median": 5.0,
+    "tau": 0.5,
+    "K": 3
+   },
+   {
+    "detect": 0.9633333333333334,
+    "fa_per_hour": 32.4,
+    "latency_median": 5.0,
+    "tau": 0.55,
+    "K": 3
+   },
+   {
+    "detect": 0.9533333333333334,
+    "fa_per_hour": 26.4,
+    "latency_median": 5.0,
+    "tau": 0.6,
+    "K": 3
+   },
+   {
+    "detect": 0.94,
+    "fa_per_hour": 22.8,
+    "latency_median": 5.0,
+    "tau": 0.65,
+    "K": 3
+   },
+   {
+    "detect": 0.9233333333333333,
+    "fa_per_hour": 19.2,
+    "latency_median": 5.0,
+    "tau": 0.7,
+    "K": 3
+   },
+   {
+    "detect": 0.9066666666666666,
+    "fa_per_hour": 10.8,
+    "latency_median": 5.0,
+    "tau": 0.75,
+    "K": 3
+   },
+   {
+    "detect": 0.88,
+    "fa_per_hour": 9.6,
+    "latency_median": 5.0,
+    "tau": 0.8,
+    "K": 3
+   },
+   {
+    "detect": 0.82,
+    "fa_per_hour": 7.2,
+    "latency_median": 6.0,
+    "tau": 0.85,
+    "K": 3
+   },
+   {
+    "detect": 0.71,
+    "fa_per_hour": 3.6,
+    "latency_median": 6.0,
+    "tau": 0.9,
+    "K": 3
+   },
+   {
+    "detect": 0.5433333333333333,
+    "fa_per_hour": 1.2,
+    "latency_median": 6.0,
+    "tau": 0.95,
+    "K": 3
+   }
+  ],
+  "muse4_K1": [
+   {
+    "detect": 0.98,
+    "fa_per_hour": 571.2,
+    "latency_median": 3.0,
+    "tau": 0.5,
+    "K": 1
+   },
+   {
+    "detect": 0.97,
+    "fa_per_hour": 432.0,
+    "latency_median": 3.0,
+    "tau": 0.55,
+    "K": 1
+   },
+   {
+    "detect": 0.9466666666666667,
+    "fa_per_hour": 327.59999999999997,
+    "latency_median": 3.0,
+    "tau": 0.6,
+    "K": 1
+   },
+   {
+    "detect": 0.9166666666666666,
+    "fa_per_hour": 237.60000000000002,
+    "latency_median": 3.0,
+    "tau": 0.65,
+    "K": 1
+   },
+   {
+    "detect": 0.88,
+    "fa_per_hour": 153.6,
+    "latency_median": 3.0,
+    "tau": 0.7,
+    "K": 1
+   },
+   {
+    "detect": 0.8,
+    "fa_per_hour": 109.2,
+    "latency_median": 4.0,
+    "tau": 0.75,
+    "K": 1
+   },
+   {
+    "detect": 0.7,
+    "fa_per_hour": 75.60000000000001,
+    "latency_median": 4.0,
+    "tau": 0.8,
+    "K": 1
+   },
+   {
+    "detect": 0.6,
+    "fa_per_hour": 60.0,
+    "latency_median": 4.0,
+    "tau": 0.85,
+    "K": 1
+   },
+   {
+    "detect": 0.47333333333333333,
+    "fa_per_hour": 32.4,
+    "latency_median": 5.0,
+    "tau": 0.9,
+    "K": 1
+   },
+   {
+    "detect": 0.30666666666666664,
+    "fa_per_hour": 10.8,
+    "latency_median": 5.0,
+    "tau": 0.95,
+    "K": 1
+   }
+  ],
+  "muse4_K2": [
+   {
+    "detect": 0.95,
+    "fa_per_hour": 204.0,
+    "latency_median": 4.0,
+    "tau": 0.5,
+    "K": 2
+   },
+   {
+    "detect": 0.92,
+    "fa_per_hour": 146.39999999999998,
+    "latency_median": 4.0,
+    "tau": 0.55,
+    "K": 2
+   },
+   {
+    "detect": 0.8766666666666667,
+    "fa_per_hour": 109.2,
+    "latency_median": 4.0,
+    "tau": 0.6,
+    "K": 2
+   },
+   {
+    "detect": 0.8366666666666667,
+    "fa_per_hour": 76.8,
+    "latency_median": 4.0,
+    "tau": 0.65,
+    "K": 2
+   },
+   {
+    "detect": 0.7666666666666667,
+    "fa_per_hour": 46.8,
+    "latency_median": 5.0,
+    "tau": 0.7,
+    "K": 2
+   },
+   {
+    "detect": 0.67,
+    "fa_per_hour": 38.4,
+    "latency_median": 5.0,
+    "tau": 0.75,
+    "K": 2
+   },
+   {
+    "detect": 0.5933333333333334,
+    "fa_per_hour": 24.0,
+    "latency_median": 5.0,
+    "tau": 0.8,
+    "K": 2
+   },
+   {
+    "detect": 0.48,
+    "fa_per_hour": 22.8,
+    "latency_median": 5.0,
+    "tau": 0.85,
+    "K": 2
+   },
+   {
+    "detect": 0.34,
+    "fa_per_hour": 8.4,
+    "latency_median": 5.0,
+    "tau": 0.9,
+    "K": 2
+   },
+   {
+    "detect": 0.16333333333333333,
+    "fa_per_hour": 2.4,
+    "latency_median": 6.0,
+    "tau": 0.95,
+    "K": 2
+   }
+  ],
+  "muse4_K3": [
+   {
+    "detect": 0.91,
+    "fa_per_hour": 98.4,
+    "latency_median": 5.0,
+    "tau": 0.5,
+    "K": 3
+   },
+   {
+    "detect": 0.87,
+    "fa_per_hour": 69.60000000000001,
+    "latency_median": 5.0,
+    "tau": 0.55,
+    "K": 3
+   },
+   {
+    "detect": 0.83,
+    "fa_per_hour": 55.199999999999996,
+    "latency_median": 5.0,
+    "tau": 0.6,
+    "K": 3
+   },
+   {
+    "detect": 0.7633333333333333,
+    "fa_per_hour": 36.0,
+    "latency_median": 6.0,
+    "tau": 0.65,
+    "K": 3
+   },
+   {
+    "detect": 0.66,
+    "fa_per_hour": 18.0,
+    "latency_median": 5.0,
+    "tau": 0.7,
+    "K": 3
+   },
+   {
+    "detect": 0.57,
+    "fa_per_hour": 15.6,
+    "latency_median": 6.0,
+    "tau": 0.75,
+    "K": 3
+   },
+   {
+    "detect": 0.49,
+    "fa_per_hour": 13.2,
+    "latency_median": 6.0,
+    "tau": 0.8,
+    "K": 3
+   },
+   {
+    "detect": 0.39,
+    "fa_per_hour": 9.6,
+    "latency_median": 6.0,
+    "tau": 0.85,
+    "K": 3
+   },
+   {
+    "detect": 0.22666666666666666,
+    "fa_per_hour": 6.0,
+    "latency_median": 6.0,
+    "tau": 0.9,
+    "K": 3
+   },
+   {
+    "detect": 0.09666666666666666,
+    "fa_per_hour": 0.0,
+    "latency_median": 7.0,
+    "tau": 0.95,
+    "K": 3
+   }
+  ]
+ },
+ "matched_budget": {
+  "60": {
+   "all30": {
+    "detect": 0.9766666666666667,
+    "fa_per_hour": 56.4,
+    "latency_median": 4.0,
+    "tau": 0.6,
+    "K": 2
+   },
+   "muse4": {
+    "detect": 0.83,
+    "fa_per_hour": 55.199999999999996,
+    "latency_median": 5.0,
+    "tau": 0.6,
+    "K": 3
+   }
+  },
+  "30": {
+   "all30": {
+    "detect": 0.9533333333333334,
+    "fa_per_hour": 26.4,
+    "latency_median": 5.0,
+    "tau": 0.6,
+    "K": 3
+   },
+   "muse4": {
+    "detect": 0.66,
+    "fa_per_hour": 18.0,
+    "latency_median": 5.0,
+    "tau": 0.7,
+    "K": 3
+   }
+  },
+  "12": {
+   "all30": {
+    "detect": 0.9066666666666666,
+    "fa_per_hour": 10.8,
+    "latency_median": 5.0,
+    "tau": 0.75,
+    "K": 3
+   },
+   "muse4": {
+    "detect": 0.39,
+    "fa_per_hour": 9.6,
+    "latency_median": 6.0,
+    "tau": 0.85,
+    "K": 3
+   }
+  },
+  "6": {
+   "all30": {
+    "detect": 0.82,
+    "fa_per_hour": 4.8,
+    "latency_median": 5.0,
+    "tau": 0.9,
+    "K": 2
+   },
+   "muse4": {
+    "detect": 0.22666666666666666,
+    "fa_per_hour": 6.0,
+    "latency_median": 6.0,
+    "tau": 0.9,
+    "K": 3
+   }
+  },
+  "2": {
+   "all30": {
+    "detect": 0.6566666666666666,
+    "fa_per_hour": 1.2,
+    "latency_median": 5.0,
+    "tau": 0.95,
+    "K": 2
+   },
+   "muse4": {
+    "detect": 0.09666666666666666,
+    "fa_per_hour": 0.0,
+    "latency_median": 7.0,
+    "tau": 0.95,
+    "K": 3
+   }
+  }
+ },
+ "per_subject": [
+  {
+   "subject": 1,
+   "auc_all30": 0.966388888888889,
+   "auc_muse4": 0.7941145833333334,
+   "all30_t0.7_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 60.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.6333333333333333,
+    "fa_per_hour": 72.0,
+    "latency_median": 6.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9,
+    "fa_per_hour": 36.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.5666666666666667,
+    "fa_per_hour": 36.0,
+    "latency_median": 7.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 60.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.5,
+    "fa_per_hour": 60.0,
+    "latency_median": 7.0
+   }
+  },
+  {
+   "subject": 2,
+   "auc_all30": 0.948923611111111,
+   "auc_muse4": 0.8717361111111112,
+   "all30_t0.7_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 12.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.7666666666666667,
+    "fa_per_hour": 36.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.8333333333333334,
+    "fa_per_hour": 0.0,
+    "latency_median": 6.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.4666666666666667,
+    "fa_per_hour": 0.0,
+    "latency_median": 6.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.8666666666666667,
+    "fa_per_hour": 0.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.5333333333333333,
+    "fa_per_hour": 12.0,
+    "latency_median": 6.5
+   }
+  },
+  {
+   "subject": 3,
+   "auc_all30": 0.9964583333333333,
+   "auc_muse4": 0.9653125,
+   "all30_t0.7_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 1.0,
+    "fa_per_hour": 12.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.8333333333333334,
+    "fa_per_hour": 0.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.8666666666666667,
+    "fa_per_hour": 0.0,
+    "latency_median": 4.0
+   }
+  },
+  {
+   "subject": 4,
+   "auc_all30": 0.9786631944444444,
+   "auc_muse4": 0.8817881944444443,
+   "all30_t0.7_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 24.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 48.0,
+    "latency_median": 6.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 0.0,
+    "latency_median": 6.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.7666666666666667,
+    "fa_per_hour": 24.0,
+    "latency_median": 8.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 12.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.6666666666666666,
+    "fa_per_hour": 24.0,
+    "latency_median": 8.0
+   }
+  },
+  {
+   "subject": 5,
+   "auc_all30": 0.9434027777777778,
+   "auc_muse4": 0.7534375,
+   "all30_t0.7_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 72.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.5,
+    "fa_per_hour": 48.0,
+    "latency_median": 4.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9,
+    "fa_per_hour": 48.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.43333333333333335,
+    "fa_per_hour": 24.0,
+    "latency_median": 6.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.9333333333333333,
+    "fa_per_hour": 24.0,
+    "latency_median": 4.5
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.16666666666666666,
+    "fa_per_hour": 36.0,
+    "latency_median": 6.0
+   }
+  },
+  {
+   "subject": 6,
+   "auc_all30": 0.9735416666666667,
+   "auc_muse4": 0.8164583333333333,
+   "all30_t0.7_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 48.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.7,
+    "fa_per_hour": 60.0,
+    "latency_median": 6.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.8666666666666667,
+    "fa_per_hour": 24.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.4666666666666667,
+    "fa_per_hour": 24.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.8666666666666667,
+    "fa_per_hour": 24.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.3333333333333333,
+    "fa_per_hour": 12.0,
+    "latency_median": 6.5
+   }
+  },
+  {
+   "subject": 7,
+   "auc_all30": 0.9884895833333334,
+   "auc_muse4": 0.9180381944444445,
+   "all30_t0.7_K2": {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 24.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.8333333333333334,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 12.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.8,
+    "fa_per_hour": 12.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 24.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.8,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   }
+  },
+  {
+   "subject": 8,
+   "auc_all30": 0.9899305555555555,
+   "auc_muse4": 0.9614756944444445,
+   "all30_t0.7_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 24.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 24.0,
+    "latency_median": 4.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9666666666666667,
+    "fa_per_hour": 0.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.8333333333333334,
+    "fa_per_hour": 12.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 1.0,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.8666666666666667,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.5
+   }
+  },
+  {
+   "subject": 9,
+   "auc_all30": 0.9441319444444444,
+   "auc_muse4": 0.8130902777777778,
+   "all30_t0.7_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 72.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.6,
+    "fa_per_hour": 48.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9,
+    "fa_per_hour": 24.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.5333333333333333,
+    "fa_per_hour": 0.0,
+    "latency_median": 5.5
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.9,
+    "fa_per_hour": 24.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.3333333333333333,
+    "fa_per_hour": 0.0,
+    "latency_median": 5.5
+   }
+  },
+  {
+   "subject": 10,
+   "auc_all30": 0.9909375,
+   "auc_muse4": 0.9300520833333334,
+   "all30_t0.7_K2": {
+    "detect": 0.9333333333333333,
+    "fa_per_hour": 48.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.7_K2": {
+    "detect": 0.9333333333333333,
+    "fa_per_hour": 108.0,
+    "latency_median": 5.0
+   },
+   "all30_t0.7_K3": {
+    "detect": 0.9333333333333333,
+    "fa_per_hour": 36.0,
+    "latency_median": 5.0
+   },
+   "muse4_t0.7_K3": {
+    "detect": 0.9,
+    "fa_per_hour": 48.0,
+    "latency_median": 6.0
+   },
+   "all30_t0.8_K2": {
+    "detect": 0.9333333333333333,
+    "fa_per_hour": 12.0,
+    "latency_median": 4.0
+   },
+   "muse4_t0.8_K2": {
+    "detect": 0.8666666666666667,
+    "fa_per_hour": 72.0,
+    "latency_median": 5.0
+   }
+  }
+ ]
+}
