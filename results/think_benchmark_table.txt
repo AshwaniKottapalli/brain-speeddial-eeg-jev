@@ -1,0 +1,17 @@
+layout order confirm         |    N correct      % | unasked  /100     /h | dups | t50 s t90 s | cmds/err gaveup
+hier   fixed imagery         | 1000     718   71.8 |      13     1    0.3 |    0 |    68   172 |      2.1    282
+hier   fixed none            | 1000     871   87.1 |     293    29   13.4 |    0 |    44    96 |      2.6    129
+hier   fixed repeat          | 1000     847   84.7 |      73     7    2.9 |    0 |    51   124 |      3.7    153
+hier   zipf  imagery         | 1000     707   70.7 |      12     1    0.3 |    0 |    61   180 |      2.0    293
+hier   zipf  none            | 1000     817   81.7 |     307    31   13.5 |    0 |    38    77 |      2.3    183
+hier   zipf  p300sim  r2     | 1000     794   79.4 |      14     1    0.5 |    0 |    45   119 |      3.0    206
+hier   zipf  p300sim  r5     | 1000     809   80.9 |      10     1    0.4 |    0 |    39    86 |      3.3    191
+hier   zipf  repeat          | 1000     811   81.1 |      52     5    2.0 |    0 |    45   115 |      3.0    189
+linear fixed imagery         | 1000     607   60.7 |      20     2    0.5 |    0 |    81   198 |      1.3    393
+linear fixed none            | 1000     739   73.9 |     967    97   31.2 |    0 |    56   105 |      1.7    261
+linear fixed repeat          | 1000     714   71.4 |     206    21    5.8 |    0 |    64   152 |      2.0    286
+linear zipf  imagery         | 1000     673   67.3 |      17     2    0.5 |    0 |    56   168 |      1.8    327
+linear zipf  none            | 1000     770   77.0 |     574    57   22.5 |    0 |    31    97 |      1.8    230
+linear zipf  p300sim  p300sim | 1000     752   75.2 |      27     3    0.9 |    0 |    37   112 |      2.5    248
+linear zipf  p300sim  r5     | 1000     745   74.5 |      30     3    1.1 |    0 |    35   104 |      2.4    255
+linear zipf  repeat          | 1000     759   75.9 |     134    13    4.8 |    0 |    39   109 |      2.4    241

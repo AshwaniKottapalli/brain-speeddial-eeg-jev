@@ -1,0 +1,2340 @@
+{
+ "imagery_shin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.7666666666666667,
+    "false_yes": 0.3,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.4
+   },
+   {
+    "subject": 2,
+    "acc": 0.75,
+    "false_yes": 0.26666666666666666,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.4666666666666667
+   },
+   {
+    "subject": 3,
+    "acc": 0.6,
+    "false_yes": 0.4,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.6333333333333333
+   },
+   {
+    "subject": 4,
+    "acc": 0.48333333333333334,
+    "false_yes": 0.5,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.36666666666666664
+   },
+   {
+    "subject": 5,
+    "acc": 0.4666666666666667,
+    "false_yes": 0.5333333333333333,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.6333333333333333
+   },
+   {
+    "subject": 6,
+    "acc": 0.48333333333333334,
+    "false_yes": 0.5333333333333333,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.5333333333333333
+   },
+   {
+    "subject": 7,
+    "acc": 0.65,
+    "false_yes": 0.3,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.1
+   },
+   {
+    "subject": 8,
+    "acc": 0.6333333333333333,
+    "false_yes": 0.36666666666666664,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.16666666666666666
+   },
+   {
+    "subject": 9,
+    "acc": 0.9333333333333333,
+    "false_yes": 0.1,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.5333333333333333
+   },
+   {
+    "subject": 10,
+    "acc": 0.4666666666666667,
+    "false_yes": 0.4,
+    "decision_s": 4.0,
+    "yes_on_idle": 0.3
+   }
+  ],
+  "acc_mean": 0.6233333333333333,
+  "acc_min": 0.4666666666666667,
+  "acc_max": 0.9333333333333333,
+  "false_yes_mean": 0.37,
+  "n_subjects": 10,
+  "decision_s": 4.0,
+  "note": "left=YES right=NO, 30 ch, 4 s; yes-on-idle from rest trials",
+  "yes_on_idle": 0.4133333333333333
+ },
+ "arith_shin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9,
+    "false_yes": 0.03333333333333333,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 2,
+    "acc": 0.8666666666666667,
+    "false_yes": 0.13333333333333333,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 3,
+    "acc": 0.95,
+    "false_yes": 0.1,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 4,
+    "acc": 0.85,
+    "false_yes": 0.16666666666666666,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 5,
+    "acc": 0.8166666666666667,
+    "false_yes": 0.2,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 6,
+    "acc": 0.9333333333333333,
+    "false_yes": 0.13333333333333333,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 7,
+    "acc": 0.95,
+    "false_yes": 0.03333333333333333,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 8,
+    "acc": 0.95,
+    "false_yes": 0.0,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 9,
+    "acc": 0.8166666666666667,
+    "false_yes": 0.16666666666666666,
+    "decision_s": 3.0
+   },
+   {
+    "subject": 10,
+    "acc": 0.9,
+    "false_yes": 0.2,
+    "decision_s": 3.0
+   }
+  ],
+  "acc_mean": 0.8933333333333333,
+  "acc_min": 0.8166666666666667,
+  "acc_max": 0.95,
+  "false_yes_mean": 0.11666666666666667,
+  "n_subjects": 10,
+  "decision_s": 3.0,
+  "note": "arithmetic=YES idle=NO, 30 ch, 3 s (asymmetric: NO = do nothing)",
+  "yes_on_idle": null
+ },
+ "imagery_bnci": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.8506944444444444,
+    "false_yes": 0.0625,
+    "decision_s": 4.0
+   },
+   {
+    "subject": 2,
+    "acc": 0.6458333333333334,
+    "false_yes": 0.3819444444444444,
+    "decision_s": 4.0
+   },
+   {
+    "subject": 3,
+    "acc": 0.96875,
+    "false_yes": 0.027777777777777776,
+    "decision_s": 4.0
+   }
+  ],
+  "acc_mean": 0.8217592592592592,
+  "acc_min": 0.6458333333333334,
+  "acc_max": 0.96875,
+  "false_yes_mean": 0.1574074074074074,
+  "n_subjects": 3,
+  "decision_s": 4.0,
+  "note": "BCI IV 2a left=YES right=NO, 22 ch, 4 s",
+  "yes_on_idle": null
+ },
+ "p300_009_r1": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.957,
+    "false_yes": 0.043,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9546537422839507
+   },
+   {
+    "subject": 2,
+    "acc": 0.9705,
+    "false_yes": 0.0295,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9717978395061728
+   },
+   {
+    "subject": 3,
+    "acc": 0.8905,
+    "false_yes": 0.1095,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8840229552469137
+   },
+   {
+    "subject": 4,
+    "acc": 0.9655,
+    "false_yes": 0.0345,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.965967399691358
+   },
+   {
+    "subject": 5,
+    "acc": 0.9655,
+    "false_yes": 0.0345,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9630738811728394
+   },
+   {
+    "subject": 6,
+    "acc": 0.919,
+    "false_yes": 0.081,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9335093557098767
+   },
+   {
+    "subject": 7,
+    "acc": 0.9335,
+    "false_yes": 0.0665,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9290702160493827
+   },
+   {
+    "subject": 8,
+    "acc": 0.925,
+    "false_yes": 0.075,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9158854166666667
+   },
+   {
+    "subject": 9,
+    "acc": 0.9705,
+    "false_yes": 0.0295,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9703993055555556
+   },
+   {
+    "subject": 10,
+    "acc": 0.9735,
+    "false_yes": 0.0265,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.9795404128086419
+   }
+  ],
+  "acc_mean": 0.94705,
+  "acc_min": 0.8905,
+  "acc_max": 0.9735,
+  "false_yes_mean": 0.05295,
+  "n_subjects": 10,
+  "decision_s": 0.5,
+  "note": "visual P300 speller (BNCI2014_009), 16 ch; 1 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_009_r1_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.7695000000000001,
+    "p_yes_given_yes": 0.5405,
+    "p_yes_given_no": 0.0015,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0015,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.8125,
+    "p_yes_given_yes": 0.625,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.7035,
+    "p_yes_given_yes": 0.4105,
+    "p_yes_given_no": 0.0035,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0035,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.82975,
+    "p_yes_given_yes": 0.6595,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.8160000000000001,
+    "p_yes_given_yes": 0.6325,
+    "p_yes_given_no": 0.0005,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0005,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.74,
+    "p_yes_given_yes": 0.4815,
+    "p_yes_given_no": 0.0015,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0015,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.7195,
+    "p_yes_given_yes": 0.44,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.71475,
+    "p_yes_given_yes": 0.431,
+    "p_yes_given_no": 0.0015,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0015,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 9,
+    "acc": 0.83075,
+    "p_yes_given_yes": 0.6615,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 10,
+    "acc": 0.87425,
+    "p_yes_given_yes": 0.7485,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.78105,
+  "acc_min": 0.7035,
+  "acc_max": 0.87425,
+  "false_yes_mean": 0.0009500000000000001,
+  "n_subjects": 10,
+  "decision_s": 0.5,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.563",
+  "yes_on_idle": 0.05
+ },
+ "p300_009_r2": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9905,
+    "false_yes": 0.0095,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9546537422839507
+   },
+   {
+    "subject": 2,
+    "acc": 0.996,
+    "false_yes": 0.004,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9717978395061728
+   },
+   {
+    "subject": 3,
+    "acc": 0.9525,
+    "false_yes": 0.0475,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8840229552469137
+   },
+   {
+    "subject": 4,
+    "acc": 0.9945,
+    "false_yes": 0.0055,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.965967399691358
+   },
+   {
+    "subject": 5,
+    "acc": 0.994,
+    "false_yes": 0.006,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9630738811728394
+   },
+   {
+    "subject": 6,
+    "acc": 0.988,
+    "false_yes": 0.012,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9335093557098767
+   },
+   {
+    "subject": 7,
+    "acc": 0.9835,
+    "false_yes": 0.0165,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9290702160493827
+   },
+   {
+    "subject": 8,
+    "acc": 0.9795,
+    "false_yes": 0.0205,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9158854166666667
+   },
+   {
+    "subject": 9,
+    "acc": 0.9965,
+    "false_yes": 0.0035,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9703993055555556
+   },
+   {
+    "subject": 10,
+    "acc": 0.996,
+    "false_yes": 0.004,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.9795404128086419
+   }
+  ],
+  "acc_mean": 0.9871000000000001,
+  "acc_min": 0.9525,
+  "acc_max": 0.9965,
+  "false_yes_mean": 0.0129,
+  "n_subjects": 10,
+  "decision_s": 1.0,
+  "note": "visual P300 speller (BNCI2014_009), 16 ch; 2 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_009_r2_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.87975,
+    "p_yes_given_yes": 0.7595,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.92225,
+    "p_yes_given_yes": 0.8445,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.79425,
+    "p_yes_given_yes": 0.5885,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.93625,
+    "p_yes_given_yes": 0.8725,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.9275,
+    "p_yes_given_yes": 0.855,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.8594999999999999,
+    "p_yes_given_yes": 0.719,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.8732500000000001,
+    "p_yes_given_yes": 0.7465,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.81875,
+    "p_yes_given_yes": 0.6375,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 9,
+    "acc": 0.9465,
+    "p_yes_given_yes": 0.893,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 10,
+    "acc": 0.96475,
+    "p_yes_given_yes": 0.9295,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.892275,
+  "acc_min": 0.79425,
+  "acc_max": 0.96475,
+  "false_yes_mean": 0.0,
+  "n_subjects": 10,
+  "decision_s": 1.0,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.785",
+  "yes_on_idle": 0.05
+ },
+ "p300_009_r3": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9975,
+    "false_yes": 0.0025,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9546537422839507
+   },
+   {
+    "subject": 2,
+    "acc": 0.9995,
+    "false_yes": 0.0005,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9717978395061728
+   },
+   {
+    "subject": 3,
+    "acc": 0.977,
+    "false_yes": 0.023,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8840229552469137
+   },
+   {
+    "subject": 4,
+    "acc": 0.999,
+    "false_yes": 0.001,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.965967399691358
+   },
+   {
+    "subject": 5,
+    "acc": 0.999,
+    "false_yes": 0.001,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9630738811728394
+   },
+   {
+    "subject": 6,
+    "acc": 0.9955,
+    "false_yes": 0.0045,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9335093557098767
+   },
+   {
+    "subject": 7,
+    "acc": 0.997,
+    "false_yes": 0.003,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9290702160493827
+   },
+   {
+    "subject": 8,
+    "acc": 0.991,
+    "false_yes": 0.009,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9158854166666667
+   },
+   {
+    "subject": 9,
+    "acc": 0.9995,
+    "false_yes": 0.0005,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9703993055555556
+   },
+   {
+    "subject": 10,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.9795404128086419
+   }
+  ],
+  "acc_mean": 0.9955,
+  "acc_min": 0.977,
+  "acc_max": 1.0,
+  "false_yes_mean": 0.0045,
+  "n_subjects": 10,
+  "decision_s": 1.5,
+  "note": "visual P300 speller (BNCI2014_009), 16 ch; 3 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_009_r3_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9512499999999999,
+    "p_yes_given_yes": 0.9025,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.9784999999999999,
+    "p_yes_given_yes": 0.957,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.8645,
+    "p_yes_given_yes": 0.73,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.974,
+    "p_yes_given_yes": 0.948,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.97375,
+    "p_yes_given_yes": 0.9475,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.9299999999999999,
+    "p_yes_given_yes": 0.86,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.9105,
+    "p_yes_given_yes": 0.821,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.89175,
+    "p_yes_given_yes": 0.7835,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 9,
+    "acc": 0.9822500000000001,
+    "p_yes_given_yes": 0.9645,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 10,
+    "acc": 0.9924999999999999,
+    "p_yes_given_yes": 0.985,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.9449,
+  "acc_min": 0.8645,
+  "acc_max": 0.9924999999999999,
+  "false_yes_mean": 0.0001,
+  "n_subjects": 10,
+  "decision_s": 1.5,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.890",
+  "yes_on_idle": 0.05
+ },
+ "p300_009_r5": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9546537422839507
+   },
+   {
+    "subject": 2,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9717978395061728
+   },
+   {
+    "subject": 3,
+    "acc": 0.9965,
+    "false_yes": 0.0035,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8840229552469137
+   },
+   {
+    "subject": 4,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.965967399691358
+   },
+   {
+    "subject": 5,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9630738811728394
+   },
+   {
+    "subject": 6,
+    "acc": 0.999,
+    "false_yes": 0.001,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9335093557098767
+   },
+   {
+    "subject": 7,
+    "acc": 0.9995,
+    "false_yes": 0.0005,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9290702160493827
+   },
+   {
+    "subject": 8,
+    "acc": 0.9995,
+    "false_yes": 0.0005,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9158854166666667
+   },
+   {
+    "subject": 9,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9703993055555556
+   },
+   {
+    "subject": 10,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.9795404128086419
+   }
+  ],
+  "acc_mean": 0.9994500000000001,
+  "acc_min": 0.9965,
+  "acc_max": 1.0,
+  "false_yes_mean": 0.0005499999999999999,
+  "n_subjects": 10,
+  "decision_s": 2.5,
+  "note": "visual P300 speller (BNCI2014_009), 16 ch; 5 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_009_r5_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9915,
+    "p_yes_given_yes": 0.983,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.998,
+    "p_yes_given_yes": 0.996,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.944,
+    "p_yes_given_yes": 0.888,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.99675,
+    "p_yes_given_yes": 0.9935,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.99725,
+    "p_yes_given_yes": 0.9945,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.982,
+    "p_yes_given_yes": 0.964,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.97725,
+    "p_yes_given_yes": 0.9545,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.96675,
+    "p_yes_given_yes": 0.9335,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 9,
+    "acc": 0.9982500000000001,
+    "p_yes_given_yes": 0.9965,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 10,
+    "acc": 0.99925,
+    "p_yes_given_yes": 0.9985,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.9851000000000001,
+  "acc_min": 0.944,
+  "acc_max": 0.99925,
+  "false_yes_mean": 0.0,
+  "n_subjects": 10,
+  "decision_s": 2.5,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.970",
+  "yes_on_idle": 0.05
+ },
+ "p300_008_r1": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.835,
+    "false_yes": 0.165,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8342832653061225
+   },
+   {
+    "subject": 2,
+    "acc": 0.8025,
+    "false_yes": 0.1975,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8115987755102041
+   },
+   {
+    "subject": 3,
+    "acc": 0.901,
+    "false_yes": 0.099,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8925065306122448
+   },
+   {
+    "subject": 4,
+    "acc": 0.8085,
+    "false_yes": 0.1915,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8027208163265305
+   },
+   {
+    "subject": 5,
+    "acc": 0.8715,
+    "false_yes": 0.1285,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8671212244897959
+   },
+   {
+    "subject": 6,
+    "acc": 0.869,
+    "false_yes": 0.131,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8726314285714285
+   },
+   {
+    "subject": 7,
+    "acc": 0.8695,
+    "false_yes": 0.1305,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.8597130612244898
+   },
+   {
+    "subject": 8,
+    "acc": 0.9405,
+    "false_yes": 0.0595,
+    "decision_s": 0.5,
+    "single_flash_auc": 0.943925306122449
+   }
+  ],
+  "acc_mean": 0.8621875,
+  "acc_min": 0.8025,
+  "acc_max": 0.9405,
+  "false_yes_mean": 0.1378125,
+  "n_subjects": 8,
+  "decision_s": 0.5,
+  "note": "visual P300, ALS patients (BNCI2014_008), 8 ch; 1 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_008_r1_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.63025,
+    "p_yes_given_yes": 0.266,
+    "p_yes_given_no": 0.0055,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0055,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.6345000000000001,
+    "p_yes_given_yes": 0.275,
+    "p_yes_given_no": 0.006,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.006,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.65725,
+    "p_yes_given_yes": 0.3145,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.62775,
+    "p_yes_given_yes": 0.275,
+    "p_yes_given_no": 0.0195,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0195,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.65925,
+    "p_yes_given_yes": 0.325,
+    "p_yes_given_no": 0.0065,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0065,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.63975,
+    "p_yes_given_yes": 0.283,
+    "p_yes_given_no": 0.0035,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0035,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.66725,
+    "p_yes_given_yes": 0.3435,
+    "p_yes_given_no": 0.009,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.009,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.7577499999999999,
+    "p_yes_given_yes": 0.5175,
+    "p_yes_given_no": 0.002,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.002,
+    "decision_s": 0.5,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.65921875,
+  "acc_min": 0.62775,
+  "acc_max": 0.7577499999999999,
+  "false_yes_mean": 0.0065,
+  "n_subjects": 8,
+  "decision_s": 0.5,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.325",
+  "yes_on_idle": 0.05
+ },
+ "p300_008_r2": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9145,
+    "false_yes": 0.0855,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8342832653061225
+   },
+   {
+    "subject": 2,
+    "acc": 0.8955,
+    "false_yes": 0.1045,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8115987755102041
+   },
+   {
+    "subject": 3,
+    "acc": 0.9505,
+    "false_yes": 0.0495,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8925065306122448
+   },
+   {
+    "subject": 4,
+    "acc": 0.8825,
+    "false_yes": 0.1175,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8027208163265305
+   },
+   {
+    "subject": 5,
+    "acc": 0.9365,
+    "false_yes": 0.0635,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8671212244897959
+   },
+   {
+    "subject": 6,
+    "acc": 0.9405,
+    "false_yes": 0.0595,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8726314285714285
+   },
+   {
+    "subject": 7,
+    "acc": 0.9355,
+    "false_yes": 0.0645,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.8597130612244898
+   },
+   {
+    "subject": 8,
+    "acc": 0.989,
+    "false_yes": 0.011,
+    "decision_s": 1.0,
+    "single_flash_auc": 0.943925306122449
+   }
+  ],
+  "acc_mean": 0.9305625,
+  "acc_min": 0.8825,
+  "acc_max": 0.989,
+  "false_yes_mean": 0.0694375,
+  "n_subjects": 8,
+  "decision_s": 1.0,
+  "note": "visual P300, ALS patients (BNCI2014_008), 8 ch; 2 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_008_r2_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.69475,
+    "p_yes_given_yes": 0.3905,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.688,
+    "p_yes_given_yes": 0.378,
+    "p_yes_given_no": 0.002,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.002,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.77475,
+    "p_yes_given_yes": 0.5495,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.68575,
+    "p_yes_given_yes": 0.3765,
+    "p_yes_given_no": 0.005,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.005,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.72375,
+    "p_yes_given_yes": 0.4485,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.744,
+    "p_yes_given_yes": 0.4885,
+    "p_yes_given_no": 0.0005,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0005,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.7455,
+    "p_yes_given_yes": 0.492,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.855,
+    "p_yes_given_yes": 0.71,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.0,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.7389375,
+  "acc_min": 0.68575,
+  "acc_max": 0.855,
+  "false_yes_mean": 0.0013125,
+  "n_subjects": 8,
+  "decision_s": 1.0,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.479",
+  "yes_on_idle": 0.05
+ },
+ "p300_008_r3": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.957,
+    "false_yes": 0.043,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8342832653061225
+   },
+   {
+    "subject": 2,
+    "acc": 0.9425,
+    "false_yes": 0.0575,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8115987755102041
+   },
+   {
+    "subject": 3,
+    "acc": 0.9855,
+    "false_yes": 0.0145,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8925065306122448
+   },
+   {
+    "subject": 4,
+    "acc": 0.9225,
+    "false_yes": 0.0775,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8027208163265305
+   },
+   {
+    "subject": 5,
+    "acc": 0.976,
+    "false_yes": 0.024,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8671212244897959
+   },
+   {
+    "subject": 6,
+    "acc": 0.979,
+    "false_yes": 0.021,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8726314285714285
+   },
+   {
+    "subject": 7,
+    "acc": 0.9705,
+    "false_yes": 0.0295,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.8597130612244898
+   },
+   {
+    "subject": 8,
+    "acc": 0.9955,
+    "false_yes": 0.0045,
+    "decision_s": 1.5,
+    "single_flash_auc": 0.943925306122449
+   }
+  ],
+  "acc_mean": 0.9660625,
+  "acc_min": 0.9225,
+  "acc_max": 0.9955,
+  "false_yes_mean": 0.033937499999999995,
+  "n_subjects": 8,
+  "decision_s": 1.5,
+  "note": "visual P300, ALS patients (BNCI2014_008), 8 ch; 3 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_008_r3_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.749,
+    "p_yes_given_yes": 0.498,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.75025,
+    "p_yes_given_yes": 0.5025,
+    "p_yes_given_no": 0.002,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.002,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.8554999999999999,
+    "p_yes_given_yes": 0.711,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.73325,
+    "p_yes_given_yes": 0.4675,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.7915,
+    "p_yes_given_yes": 0.583,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.812,
+    "p_yes_given_yes": 0.624,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.8125,
+    "p_yes_given_yes": 0.626,
+    "p_yes_given_no": 0.001,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.001,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.93775,
+    "p_yes_given_yes": 0.8755,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 1.5,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.80521875,
+  "acc_min": 0.73325,
+  "acc_max": 0.93775,
+  "false_yes_mean": 0.0005,
+  "n_subjects": 8,
+  "decision_s": 1.5,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.611",
+  "yes_on_idle": 0.05
+ },
+ "p300_008_r5": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9825,
+    "false_yes": 0.0175,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8342832653061225
+   },
+   {
+    "subject": 2,
+    "acc": 0.9785,
+    "false_yes": 0.0215,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8115987755102041
+   },
+   {
+    "subject": 3,
+    "acc": 0.9965,
+    "false_yes": 0.0035,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8925065306122448
+   },
+   {
+    "subject": 4,
+    "acc": 0.9755,
+    "false_yes": 0.0245,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8027208163265305
+   },
+   {
+    "subject": 5,
+    "acc": 0.9935,
+    "false_yes": 0.0065,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8671212244897959
+   },
+   {
+    "subject": 6,
+    "acc": 0.9955,
+    "false_yes": 0.0045,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8726314285714285
+   },
+   {
+    "subject": 7,
+    "acc": 0.9895,
+    "false_yes": 0.0105,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.8597130612244898
+   },
+   {
+    "subject": 8,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "single_flash_auc": 0.943925306122449
+   }
+  ],
+  "acc_mean": 0.9889375,
+  "acc_min": 0.9755,
+  "acc_max": 1.0,
+  "false_yes_mean": 0.0110625,
+  "n_subjects": 8,
+  "decision_s": 2.5,
+  "note": "visual P300, ALS patients (BNCI2014_008), 8 ch; 5 flash(es) per option, SOA 0.25s",
+  "yes_on_idle": null
+ },
+ "p300_008_r5_margin": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.8335,
+    "p_yes_given_yes": 0.667,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 2,
+    "acc": 0.8395,
+    "p_yes_given_yes": 0.679,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 3,
+    "acc": 0.9365,
+    "p_yes_given_yes": 0.873,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 4,
+    "acc": 0.8285,
+    "p_yes_given_yes": 0.6575,
+    "p_yes_given_no": 0.0005,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0005,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 5,
+    "acc": 0.8987499999999999,
+    "p_yes_given_yes": 0.7975,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 6,
+    "acc": 0.91475,
+    "p_yes_given_yes": 0.8295,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 7,
+    "acc": 0.90325,
+    "p_yes_given_yes": 0.8065,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   },
+   {
+    "subject": 8,
+    "acc": 0.9864999999999999,
+    "p_yes_given_yes": 0.973,
+    "p_yes_given_no": 0.0,
+    "p_yes_given_idle": 0.05,
+    "false_yes": 0.0,
+    "decision_s": 2.5,
+    "yes_on_idle": 0.05
+   }
+  ],
+  "acc_mean": 0.8926562499999999,
+  "acc_min": 0.8285,
+  "acc_max": 0.9864999999999999,
+  "false_yes_mean": 6.25e-05,
+  "n_subjects": 8,
+  "decision_s": 2.5,
+  "note": "abstain margin calibrated to <=5% YES when not attending; P(YES|YES)=0.785",
+  "yes_on_idle": 0.05
+ },
+ "ssvep_nak_1s": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.7333333333333333,
+    "false_yes": 0.2,
+    "decision_s": 1.0,
+    "pair": [
+     "10.25",
+     "14.25"
+    ]
+   },
+   {
+    "subject": 2,
+    "acc": 0.8,
+    "false_yes": 0.13333333333333333,
+    "decision_s": 1.0,
+    "pair": [
+     "9.25",
+     "9.75"
+    ]
+   },
+   {
+    "subject": 3,
+    "acc": 0.7666666666666667,
+    "false_yes": 0.2,
+    "decision_s": 1.0,
+    "pair": [
+     "11.25",
+     "12.75"
+    ]
+   },
+   {
+    "subject": 4,
+    "acc": 0.8,
+    "false_yes": 0.26666666666666666,
+    "decision_s": 1.0,
+    "pair": [
+     "10.75",
+     "11.25"
+    ]
+   },
+   {
+    "subject": 5,
+    "acc": 0.9,
+    "false_yes": 0.06666666666666667,
+    "decision_s": 1.0,
+    "pair": [
+     "10.25",
+     "14.75"
+    ]
+   },
+   {
+    "subject": 6,
+    "acc": 0.8666666666666667,
+    "false_yes": 0.13333333333333333,
+    "decision_s": 1.0,
+    "pair": [
+     "10.75",
+     "14.25"
+    ]
+   },
+   {
+    "subject": 7,
+    "acc": 0.8,
+    "false_yes": 0.13333333333333333,
+    "decision_s": 1.0,
+    "pair": [
+     "12.25",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 8,
+    "acc": 0.7333333333333333,
+    "false_yes": 0.4,
+    "decision_s": 1.0,
+    "pair": [
+     "10.25",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 9,
+    "acc": 0.7666666666666667,
+    "false_yes": 0.2,
+    "decision_s": 1.0,
+    "pair": [
+     "11.25",
+     "13.75"
+    ]
+   }
+  ],
+  "acc_mean": 0.7962962962962963,
+  "acc_min": 0.7333333333333333,
+  "acc_max": 0.9,
+  "false_yes_mean": 0.1925925925925926,
+  "n_subjects": 9,
+  "decision_s": 1.0,
+  "note": "SSVEP Nakanishi2015, 8 occipital ch, needs flickering YES/NO on screen; best 2 of 12 frequencies per subject",
+  "yes_on_idle": null
+ },
+ "ssvep_nak_2s": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9,
+    "false_yes": 0.06666666666666667,
+    "decision_s": 2.0,
+    "pair": [
+     "10.75",
+     "9.75"
+    ]
+   },
+   {
+    "subject": 2,
+    "acc": 0.8,
+    "false_yes": 0.26666666666666666,
+    "decision_s": 2.0,
+    "pair": [
+     "13.75",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 3,
+    "acc": 0.8666666666666667,
+    "false_yes": 0.2,
+    "decision_s": 2.0,
+    "pair": [
+     "11.25",
+     "13.75"
+    ]
+   },
+   {
+    "subject": 4,
+    "acc": 0.9,
+    "false_yes": 0.2,
+    "decision_s": 2.0,
+    "pair": [
+     "10.75",
+     "12.25"
+    ]
+   },
+   {
+    "subject": 5,
+    "acc": 0.9666666666666667,
+    "false_yes": 0.06666666666666667,
+    "decision_s": 2.0,
+    "pair": [
+     "10.75",
+     "13.25"
+    ]
+   },
+   {
+    "subject": 6,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 2.0,
+    "pair": [
+     "14.75",
+     "9.75"
+    ]
+   },
+   {
+    "subject": 7,
+    "acc": 0.9333333333333333,
+    "false_yes": 0.06666666666666667,
+    "decision_s": 2.0,
+    "pair": [
+     "10.25",
+     "14.75"
+    ]
+   },
+   {
+    "subject": 8,
+    "acc": 0.7333333333333333,
+    "false_yes": 0.2,
+    "decision_s": 2.0,
+    "pair": [
+     "14.75",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 9,
+    "acc": 0.9,
+    "false_yes": 0.06666666666666667,
+    "decision_s": 2.0,
+    "pair": [
+     "10.75",
+     "9.25"
+    ]
+   }
+  ],
+  "acc_mean": 0.8888888888888888,
+  "acc_min": 0.7333333333333333,
+  "acc_max": 1.0,
+  "false_yes_mean": 0.1259259259259259,
+  "n_subjects": 9,
+  "decision_s": 2.0,
+  "note": "SSVEP Nakanishi2015, 8 occipital ch, needs flickering YES/NO on screen; best 2 of 12 frequencies per subject",
+  "yes_on_idle": null
+ },
+ "ssvep_nak_4s": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.9666666666666667,
+    "false_yes": 0.0,
+    "decision_s": 4.0,
+    "pair": [
+     "10.75",
+     "13.75"
+    ]
+   },
+   {
+    "subject": 2,
+    "acc": 0.7666666666666667,
+    "false_yes": 0.26666666666666666,
+    "decision_s": 4.0,
+    "pair": [
+     "10.75",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 3,
+    "acc": 0.9333333333333333,
+    "false_yes": 0.06666666666666667,
+    "decision_s": 4.0,
+    "pair": [
+     "14.75",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 4,
+    "acc": 0.8666666666666667,
+    "false_yes": 0.13333333333333333,
+    "decision_s": 4.0,
+    "pair": [
+     "12.25",
+     "9.75"
+    ]
+   },
+   {
+    "subject": 5,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 4.0,
+    "pair": [
+     "10.25",
+     "14.75"
+    ]
+   },
+   {
+    "subject": 6,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 4.0,
+    "pair": [
+     "10.25",
+     "14.75"
+    ]
+   },
+   {
+    "subject": 7,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 4.0,
+    "pair": [
+     "14.75",
+     "9.75"
+    ]
+   },
+   {
+    "subject": 8,
+    "acc": 0.7333333333333333,
+    "false_yes": 0.3333333333333333,
+    "decision_s": 4.0,
+    "pair": [
+     "10.25",
+     "9.25"
+    ]
+   },
+   {
+    "subject": 9,
+    "acc": 1.0,
+    "false_yes": 0.0,
+    "decision_s": 4.0,
+    "pair": [
+     "14.75",
+     "9.75"
+    ]
+   }
+  ],
+  "acc_mean": 0.9185185185185184,
+  "acc_min": 0.7333333333333333,
+  "acc_max": 1.0,
+  "false_yes_mean": 0.08888888888888889,
+  "n_subjects": 9,
+  "decision_s": 4.0,
+  "note": "SSVEP Nakanishi2015, 8 occipital ch, needs flickering YES/NO on screen; best 2 of 12 frequencies per subject",
+  "yes_on_idle": null
+ },
+ "ssvep_kal_1s": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.75,
+    "false_yes": 0.375,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.375
+   },
+   {
+    "subject": 2,
+    "acc": 0.8125,
+    "false_yes": 0.25,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 1.0
+   },
+   {
+    "subject": 3,
+    "acc": 0.5,
+    "false_yes": 0.5,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 1.0
+   },
+   {
+    "subject": 4,
+    "acc": 0.46875,
+    "false_yes": 0.5,
+    "decision_s": 1.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.1875
+   },
+   {
+    "subject": 5,
+    "acc": 0.75,
+    "false_yes": 0.25,
+    "decision_s": 1.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.625
+   },
+   {
+    "subject": 6,
+    "acc": 0.6875,
+    "false_yes": 0.3125,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.625
+   },
+   {
+    "subject": 7,
+    "acc": 0.5208333333333334,
+    "false_yes": 0.5416666666666666,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.4583333333333333
+   },
+   {
+    "subject": 8,
+    "acc": 0.71875,
+    "false_yes": 0.1875,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.6875
+   },
+   {
+    "subject": 9,
+    "acc": 0.59375,
+    "false_yes": 0.4375,
+    "decision_s": 1.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.375
+   },
+   {
+    "subject": 10,
+    "acc": 0.59375,
+    "false_yes": 0.40625,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.625
+   },
+   {
+    "subject": 11,
+    "acc": 0.65625,
+    "false_yes": 0.4375,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.5
+   },
+   {
+    "subject": 12,
+    "acc": 0.85,
+    "false_yes": 0.2,
+    "decision_s": 1.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.15
+   }
+  ],
+  "acc_mean": 0.6585069444444445,
+  "acc_min": 0.46875,
+  "acc_max": 0.85,
+  "false_yes_mean": 0.3664930555555555,
+  "n_subjects": 12,
+  "decision_s": 1.0,
+  "note": "SSVEP Kalunga2016, 8 ch, has REST -> yes-on-idle measured; best 2 of 3 frequencies per subject",
+  "yes_on_idle": 0.5506944444444445
+ },
+ "ssvep_kal_2s": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.75,
+    "false_yes": 0.25,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.1875
+   },
+   {
+    "subject": 2,
+    "acc": 0.75,
+    "false_yes": 0.25,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.875
+   },
+   {
+    "subject": 3,
+    "acc": 0.59375,
+    "false_yes": 0.4375,
+    "decision_s": 2.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 1.0
+   },
+   {
+    "subject": 4,
+    "acc": 0.5625,
+    "false_yes": 0.4375,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.8125
+   },
+   {
+    "subject": 5,
+    "acc": 0.65625,
+    "false_yes": 0.375,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.4375
+   },
+   {
+    "subject": 6,
+    "acc": 0.59375,
+    "false_yes": 0.375,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.375
+   },
+   {
+    "subject": 7,
+    "acc": 0.6041666666666666,
+    "false_yes": 0.3333333333333333,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.5833333333333334
+   },
+   {
+    "subject": 8,
+    "acc": 0.78125,
+    "false_yes": 0.125,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.8125
+   },
+   {
+    "subject": 9,
+    "acc": 0.625,
+    "false_yes": 0.3125,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.625
+   },
+   {
+    "subject": 10,
+    "acc": 0.59375,
+    "false_yes": 0.40625,
+    "decision_s": 2.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.3125
+   },
+   {
+    "subject": 11,
+    "acc": 0.59375,
+    "false_yes": 0.4375,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.25
+   },
+   {
+    "subject": 12,
+    "acc": 0.825,
+    "false_yes": 0.15,
+    "decision_s": 2.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.175
+   }
+  ],
+  "acc_mean": 0.6607638888888888,
+  "acc_min": 0.5625,
+  "acc_max": 0.825,
+  "false_yes_mean": 0.32413194444444443,
+  "n_subjects": 12,
+  "decision_s": 2.0,
+  "note": "SSVEP Kalunga2016, 8 ch, has REST -> yes-on-idle measured; best 2 of 3 frequencies per subject",
+  "yes_on_idle": 0.5371527777777778
+ },
+ "ssvep_kal_4s": {
+  "per_subject": [
+   {
+    "subject": 1,
+    "acc": 0.6333333333333333,
+    "false_yes": 0.0625,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.0625
+   },
+   {
+    "subject": 2,
+    "acc": 0.7419354838709677,
+    "false_yes": 0.25,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.0625
+   },
+   {
+    "subject": 3,
+    "acc": 0.65625,
+    "false_yes": 0.375,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.9375
+   },
+   {
+    "subject": 4,
+    "acc": 0.53125,
+    "false_yes": 0.5,
+    "decision_s": 4.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.25
+   },
+   {
+    "subject": 5,
+    "acc": 0.71875,
+    "false_yes": 0.375,
+    "decision_s": 4.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.375
+   },
+   {
+    "subject": 6,
+    "acc": 0.6333333333333333,
+    "false_yes": 0.0625,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.125
+   },
+   {
+    "subject": 7,
+    "acc": 0.6666666666666666,
+    "false_yes": 0.3333333333333333,
+    "decision_s": 4.0,
+    "pair": [
+     "17",
+     "21"
+    ],
+    "yes_on_idle": 0.875
+   },
+   {
+    "subject": 8,
+    "acc": 0.7666666666666667,
+    "false_yes": 0.125,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.75
+   },
+   {
+    "subject": 9,
+    "acc": 0.6333333333333333,
+    "false_yes": 0.125,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "17"
+    ],
+    "yes_on_idle": 0.25
+   },
+   {
+    "subject": 10,
+    "acc": 0.6290322580645161,
+    "false_yes": 0.28125,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.25
+   },
+   {
+    "subject": 11,
+    "acc": 0.5806451612903226,
+    "false_yes": 0.375,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.1875
+   },
+   {
+    "subject": 12,
+    "acc": 0.8734177215189873,
+    "false_yes": 0.1,
+    "decision_s": 4.0,
+    "pair": [
+     "13",
+     "21"
+    ],
+    "yes_on_idle": 0.075
+   }
+  ],
+  "acc_mean": 0.6720511631731773,
+  "acc_min": 0.53125,
+  "acc_max": 0.8734177215189873,
+  "false_yes_mean": 0.2470486111111111,
+  "n_subjects": 12,
+  "decision_s": 4.0,
+  "note": "SSVEP Kalunga2016, 8 ch, has REST -> yes-on-idle measured; best 2 of 3 frequencies per subject",
+  "yes_on_idle": 0.35000000000000003
+ }
+}

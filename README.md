@@ -119,6 +119,24 @@ Bottom line: **the confirmation layer cuts accidental actions 4.6x (repeat) to 2
 27 to 50 points of completion and 3 to 4 s of latency. Repeat-the-command is the practical default; imagery
 confirmation is the safe setting for money actions if you accept that half of genuine commands need a second try.
 
+## THINK benchmark v0: 20 intents, one trigger, EEG confirmation
+
+`experiments/think_benchmark.py` drives a 20-intent agent menu (switch scanning, hierarchical 4 x 5, sorted by
+usage) with the single mental-arithmetic trigger, and asks "Do you want to <intent>?" through an EEG YES/NO.
+10 subjects x 5 folds x 20 intentional attempts, all real held-out EEG replayed sample by sample. Full tables,
+the yes/no paradigm comparison across five public datasets, and caveats: `THINK_BENCHMARK.md`.
+
+| configuration | intentional attempts | agent did it correctly | agent did something unasked | median time-to-action |
+|---|---|---|---|---|
+| no confirmation | 1000 | 817 (81.7%) | 307 (13.5 per hour) | 38 s |
+| repeat-the-command confirmation (real EEG) | 1000 | **811 (81.1%)** | **52 (2.0 per hour)** | 45 s |
+| left/right imagery confirmation (real EEG) | 1000 | 707 (70.7%) | 12 (0.3 per hour) | 61 s |
+| P300 confirmation, 5 flashes (statistical splice, other subjects) | 1000 | 809 (80.9%) | 10 (0.4 per hour) | 39 s |
+
+The best all-real-EEG YES/NO we found in public data is a two-option visual P300: with an idle-safe margin it
+accepts 97% of intended YES answers, produces zero false YES, and says YES on 5% of idle EEG in 2.5 s
+(BNCI2014_009, 10 subjects). Our current left/right imagery confirmation is 62% and says YES on 41% of idle EEG.
+
 ## What is real and what is simulated
 
 | Component | Status |

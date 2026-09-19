@@ -13,11 +13,28 @@ ACTIONS = {
 }
 
 
+DEFAULT_CTX = {"local_time": "20:40", "location": "home", "minutes_since_last_same_action": 240, "day": "Friday"}
+
+
 class PolicyGate:
     def __init__(self, use_jev=True):
         self.jev = JevClient() if use_jev else None
         self.live = bool(self.jev and not self.jev.mock)
         self.last = None
+
+    def decide_generic(self, label: str, cost: str, context: dict | None = None) -> dict:
+        """same gate for an arbitrary intent: cost in {money, social, security, free}. Money/social/security -> confirm unless Jev finds it senseless."""
+        context = context or DEFAULT_CTX
+        cost_txt = {"money": "irreversible, costs money", "social": "sends something to another person", "security": "affects home security", "free": "reversible, free"}[cost]
+        if self.live:
+            q = {"sensible": {"type": "noul", "instructions": f"Performing '{label}' right now makes sense for the user given the context.",
+                              "criteria": {"true": "The action is useful and not redundant in this situation", "false": "The action is redundant, already satisfied, or was just triggered"}}}
+            p = self.jev.ask({"proposed_action": label, "action_cost": cost_txt, "context": context}, q)["sensible"]["noul"]; src = "jev"
+        else:
+            p = 0.85; src = "rule"
+        dec = "ignore" if p < 0.3 else ("fire" if cost == "free" else "confirm")
+        self.last = {"decision": dec, "p_sensible": round(float(p), 2), "source": src, "action": label}
+        return self.last
 
     def decide(self, action: str, context: dict) -> dict:
         """returns {'decision': fire|confirm|ignore, 'p_sensible': float|None, 'source': 'jev'|'rule'}"""
