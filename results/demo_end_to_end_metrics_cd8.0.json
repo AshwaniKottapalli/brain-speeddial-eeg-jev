@@ -1,0 +1,2923 @@
+{
+ "gate_source": "jev-live",
+ "tau": 0.7,
+ "K": 2,
+ "cooldown_s": 8.0,
+ "rows": [
+  {
+   "subject": 1,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    1.9921875,
+    1.984375,
+    4.96875,
+    4.9609375,
+    10.953125,
+    1.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 1,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.96875,
+    3.9609375,
+    3.953125,
+    3.9453125,
+    4.9296875,
+    1.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 39
+  },
+  {
+   "subject": 1,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9921875,
+    3.96875,
+    3.9609375,
+    2.9453125,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 1,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9765625,
+    5.96875,
+    3.9453125,
+    3.9375,
+    5.921875,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 35
+  },
+  {
+   "subject": 1,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    3.9765625,
+    3.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 35
+  },
+  {
+   "subject": 2,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 3,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    3.984375,
+    3.9609375,
+    3.953125
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 19
+  },
+  {
+   "subject": 2,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    9.0,
+    7.96875,
+    7.9609375,
+    4.9453125,
+    2.9296875,
+    4.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 20
+  },
+  {
+   "subject": 2,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9921875,
+    7.96875,
+    7.9609375,
+    4.9453125,
+    2.9296875,
+    4.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 27
+  },
+  {
+   "subject": 2,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    6.9765625,
+    6.96875,
+    6.9609375,
+    4.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 2,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.0,
+    4.9921875,
+    4.984375,
+    4.9765625,
+    2.9609375,
+    4.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 3,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9921875,
+    3.984375,
+    4.96875,
+    4.9609375,
+    4.953125,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 3,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.96875,
+    3.9609375,
+    3.953125,
+    3.9453125,
+    2.9296875,
+    2.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 3,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    2.9921875,
+    2.96875,
+    8.9609375,
+    2.9453125,
+    5.9296875,
+    5.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 31
+  },
+  {
+   "subject": 3,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9765625,
+    3.96875,
+    3.9609375,
+    5.9375,
+    5.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 35
+  },
+  {
+   "subject": 3,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    3.9765625,
+    3.9453125,
+    2.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 43
+  },
+  {
+   "subject": 4,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9765625,
+    8.9453125,
+    8.9375,
+    8.9296875,
+    8.921875,
+    8.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 26
+  },
+  {
+   "subject": 4,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9921875,
+    3.984375,
+    4.9765625,
+    1.953125,
+    5.9375,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 4,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.0,
+    4.9921875,
+    4.984375,
+    4.953125,
+    5.9375,
+    9.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 28
+  },
+  {
+   "subject": 4,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9921875,
+    4.984375,
+    6.9609375,
+    6.953125,
+    5.9296875,
+    4.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 4,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    3.96875,
+    3.953125,
+    3.9453125,
+    4.9375,
+    4.9296875,
+    4.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 5,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    10.0,
+    9.9921875,
+    5.96875,
+    8.953125,
+    3.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 24
+  },
+  {
+   "subject": 5,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 3,
+   "idle_s": 60.0,
+   "latencies": [
+    3.96875,
+    4.9453125,
+    4.9375,
+    2.921875,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 3,
+   "cmd_windows_suppressed_by_cooldown": 27
+  },
+  {
+   "subject": 5,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    1.9921875,
+    4.96875,
+    5.9609375,
+    4.9453125,
+    2.9296875,
+    3.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 5,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    2.9765625,
+    2.96875,
+    2.9609375,
+    3.9375,
+    7.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 5,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    6.984375,
+    4.9609375,
+    5.9375,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 28
+  },
+  {
+   "subject": 6,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    2.9765625,
+    3.9609375,
+    1.9453125,
+    3.9296875,
+    3.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 6,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    7.9765625,
+    3.9609375,
+    3.953125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 6,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    2.984375,
+    2.9765625,
+    3.953125,
+    2.9375,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 6,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    2.9921875,
+    2.984375,
+    2.9609375,
+    2.953125,
+    2.9296875,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 6,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    5.96875,
+    1.953125,
+    1.9453125,
+    1.9375,
+    2.9296875,
+    2.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 7,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    2.96875,
+    4.953125,
+    2.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 37
+  },
+  {
+   "subject": 7,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    6.96875,
+    6.9609375,
+    3.9453125,
+    3.9296875,
+    3.921875,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 43
+  },
+  {
+   "subject": 7,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    2.9921875,
+    2.96875,
+    2.9609375,
+    2.9453125,
+    2.9296875,
+    2.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 7,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    4.9765625,
+    4.96875,
+    3.9375,
+    3.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 23
+  },
+  {
+   "subject": 7,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.0,
+    4.9921875,
+    4.984375,
+    4.9765625,
+    2.9453125,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 8,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 2,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9921875,
+    3.984375,
+    3.96875,
+    1.953125,
+    3.9375,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 2,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 8,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.96875,
+    3.953125,
+    3.9453125,
+    3.9375,
+    3.9296875,
+    2.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 42
+  },
+  {
+   "subject": 8,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9765625,
+    3.96875,
+    3.9609375,
+    3.9453125,
+    2.9296875,
+    2.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 8,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    2.9765625,
+    3.96875,
+    3.9453125,
+    4.9375,
+    4.921875,
+    4.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 8,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    6.9765625,
+    3.9453125,
+    2.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 9,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9765625,
+    4.9453125,
+    4.9375,
+    5.9296875,
+    5.921875,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 39
+  },
+  {
+   "subject": 9,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.0,
+    4.9921875,
+    4.984375,
+    4.9765625,
+    4.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 9,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    3.953125,
+    5.9375,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 9,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    4.9921875,
+    8.953125,
+    3.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 24
+  },
+  {
+   "subject": 9,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 2,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9765625,
+    4.96875,
+    7.9609375,
+    7.953125,
+    8.9296875
+   ],
+   "l1_false_alarm_events": 2,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 10,
+   "fold": 0,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    4.9453125,
+    3.9296875,
+    3.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 23
+  },
+  {
+   "subject": 10,
+   "fold": 1,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9921875,
+    3.984375,
+    3.9765625,
+    3.953125,
+    4.9375,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 39
+  },
+  {
+   "subject": 10,
+   "fold": 2,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    4.953125,
+    4.9375,
+    3.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 10,
+   "fold": 3,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    4.0,
+    3.9921875,
+    3.984375,
+    2.953125,
+    2.9453125,
+    3.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 43
+  },
+  {
+   "subject": 10,
+   "fold": 4,
+   "confirm": "none",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    3.9765625,
+    3.96875,
+    4.9609375,
+    4.953125,
+    5.9296875,
+    5.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 1,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9921875,
+    7.984375,
+    7.96875,
+    10.9609375,
+    13.953125,
+    4.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 1,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.96875,
+    9.9609375,
+    12.953125,
+    7.9296875,
+    4.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 1,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9921875,
+    6.96875,
+    5.9453125,
+    9.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 1,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9765625,
+    6.9453125,
+    9.9375,
+    8.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 1,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    12.984375,
+    6.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 37
+  },
+  {
+   "subject": 2,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 3,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.984375,
+    6.9609375
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 20
+  },
+  {
+   "subject": 2,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9453125,
+    5.9296875,
+    8.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 21
+  },
+  {
+   "subject": 2,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9921875,
+    7.9453125,
+    5.9296875,
+    8.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 26
+  },
+  {
+   "subject": 2,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9765625,
+    12.96875,
+    7.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 2,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    6.9765625,
+    5.9609375,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 3,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9921875,
+    9.984375,
+    7.96875,
+    10.9609375,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 37
+  },
+  {
+   "subject": 3,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.96875,
+    9.9609375,
+    12.953125,
+    5.9296875,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 45
+  },
+  {
+   "subject": 3,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9921875,
+    5.96875,
+    5.9453125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 3,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    6.9765625,
+    9.96875,
+    9.9375,
+    8.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 35
+  },
+  {
+   "subject": 3,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    12.984375,
+    6.9453125,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 45
+  },
+  {
+   "subject": 4,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9765625,
+    6.9296875,
+    10.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 27
+  },
+  {
+   "subject": 4,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9921875,
+    9.984375,
+    4.953125,
+    8.9375,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 4,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    7.953125,
+    8.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 28
+  },
+  {
+   "subject": 4,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    9.9921875,
+    9.9609375,
+    8.9296875,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 31
+  },
+  {
+   "subject": 4,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.96875,
+    6.953125,
+    9.9453125,
+    12.9375,
+    5.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 5,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    13.0,
+    8.96875,
+    6.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 22
+  },
+  {
+   "subject": 5,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 3,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    9.9453125,
+    7.921875
+   ],
+   "l1_false_alarm_events": 3,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 5,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    4.9921875,
+    7.96875,
+    10.9609375,
+    7.9453125,
+    5.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 5,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    5.9765625,
+    9.96875,
+    6.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 5,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    8.9375,
+    8.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 6,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    5.9765625,
+    6.9609375,
+    4.9453125,
+    6.9296875,
+    9.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 6,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    11.9921875,
+    6.9609375,
+    9.953125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 6,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    8.9765625,
+    6.953125,
+    5.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 28
+  },
+  {
+   "subject": 6,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9921875,
+    8.984375,
+    5.9609375,
+    5.9296875,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 35
+  },
+  {
+   "subject": 6,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.96875,
+    4.953125,
+    7.9453125,
+    5.9296875,
+    8.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 40
+  },
+  {
+   "subject": 7,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    5.96875,
+    5.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 7,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    12.96875,
+    6.9453125,
+    6.9296875,
+    9.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 46
+  },
+  {
+   "subject": 7,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9921875,
+    5.96875,
+    8.9609375,
+    5.9453125,
+    5.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 39
+  },
+  {
+   "subject": 7,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    11.0,
+    10.96875,
+    6.9375,
+    6.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 18
+  },
+  {
+   "subject": 7,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    10.9921875,
+    13.984375,
+    5.9453125,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 44
+  },
+  {
+   "subject": 8,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    9.984375,
+    6.96875,
+    4.953125,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 31
+  },
+  {
+   "subject": 8,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.96875,
+    6.953125,
+    9.9453125,
+    12.9375,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 44
+  },
+  {
+   "subject": 8,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9765625,
+    6.9453125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 8,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9765625,
+    8.96875,
+    9.9375,
+    7.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 8,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    6.9453125,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 40
+  },
+  {
+   "subject": 9,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9765625,
+    7.9453125,
+    10.9375,
+    6.921875,
+    9.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 40
+  },
+  {
+   "subject": 9,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    13.984375,
+    7.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 9,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    8.9375,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 9,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 3,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 9,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9765625,
+    9.953125,
+    11.9296875
+   ],
+   "l1_false_alarm_events": 2,
+   "cmd_windows_suppressed_by_cooldown": 26
+  },
+  {
+   "subject": 10,
+   "fold": 0,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    7.9453125,
+    6.9296875,
+    9.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 23
+  },
+  {
+   "subject": 10,
+   "fold": 1,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9921875,
+    9.984375,
+    6.953125,
+    7.9375,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 39
+  },
+  {
+   "subject": 10,
+   "fold": 2,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    7.9375,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 10,
+   "fold": 3,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    7.0,
+    9.9921875,
+    5.953125,
+    8.9453125,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 43
+  },
+  {
+   "subject": 10,
+   "fold": 4,
+   "confirm": "repeat",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9765625,
+    9.96875,
+    8.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 37
+  },
+  {
+   "subject": 1,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9921875,
+    12.9609375,
+    14.953125,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 44
+  },
+  {
+   "subject": 1,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 6,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.96875,
+    7.9609375,
+    7.953125,
+    7.9453125,
+    8.9296875,
+    5.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 1,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9453125,
+    10.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 1,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    9.96875,
+    7.9453125,
+    7.9375,
+    9.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 31
+  },
+  {
+   "subject": 1,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    7.9921875,
+    7.984375,
+    7.9765625,
+    7.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 2,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 3,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.984375,
+    7.9609375,
+    7.953125
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 21
+  },
+  {
+   "subject": 2,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    13.0,
+    11.96875,
+    11.9609375,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 21
+  },
+  {
+   "subject": 2,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9921875,
+    11.96875,
+    11.9609375,
+    6.9296875,
+    8.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 21
+  },
+  {
+   "subject": 2,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    10.9765625,
+    10.96875,
+    8.921875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 42
+  },
+  {
+   "subject": 2,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9921875,
+    8.984375,
+    8.9765625,
+    6.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 31
+  },
+  {
+   "subject": 3,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9921875,
+    7.984375,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 32
+  },
+  {
+   "subject": 3,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.96875,
+    7.9453125,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 40
+  },
+  {
+   "subject": 3,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9921875,
+    6.96875,
+    6.9453125,
+    9.9296875,
+    9.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 3,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9765625,
+    11.9375
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 26
+  },
+  {
+   "subject": 3,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.984375,
+    7.9453125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 40
+  },
+  {
+   "subject": 4,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 0,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 23
+  },
+  {
+   "subject": 4,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.984375,
+    5.953125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 4,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9921875,
+    9.9375,
+    13.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 4,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    11.9921875,
+    11.984375
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 24
+  },
+  {
+   "subject": 4,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 0,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 5,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    14.0
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 28
+  },
+  {
+   "subject": 5,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.921875
+   ],
+   "l1_false_alarm_events": 3,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 5,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9921875,
+    9.9609375,
+    8.9453125,
+    7.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 5,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    11.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 38
+  },
+  {
+   "subject": 5,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 0,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 6,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9765625,
+    7.9609375
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 26
+  },
+  {
+   "subject": 6,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    7.9921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 6,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    6.9765625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 6,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9921875,
+    6.9609375,
+    6.953125,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 25
+  },
+  {
+   "subject": 6,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    5.9375,
+    6.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 35
+  },
+  {
+   "subject": 7,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.984375,
+    6.96875,
+    8.953125,
+    6.9375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 31
+  },
+  {
+   "subject": 7,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    14.96875,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 43
+  },
+  {
+   "subject": 7,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9453125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 37
+  },
+  {
+   "subject": 7,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9375,
+    7.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 17
+  },
+  {
+   "subject": 7,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9453125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 36
+  },
+  {
+   "subject": 8,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.96875,
+    5.953125,
+    9.9375,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 2,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 8,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9296875,
+    6.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 44
+  },
+  {
+   "subject": 8,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 30
+  },
+  {
+   "subject": 8,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 4,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.96875,
+    8.9375,
+    8.921875,
+    8.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 8,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    7.9921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 47
+  },
+  {
+   "subject": 9,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9765625,
+    8.9375,
+    9.9296875,
+    9.921875,
+    9.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 34
+  },
+  {
+   "subject": 9,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    9.0,
+    8.9921875,
+    8.984375,
+    8.9765625,
+    8.9609375
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 29
+  },
+  {
+   "subject": 9,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 5,
+   "duplicate_actions": 0,
+   "accidental": 1,
+   "idle_s": 60.0,
+   "latencies": [
+    7.9921875,
+    7.984375,
+    7.953125,
+    9.9375,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 24
+  },
+  {
+   "subject": 9,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 3,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.0,
+    8.9921875,
+    7.9296875
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 26
+  },
+  {
+   "subject": 9,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 5,
+   "completed": 3,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9765625,
+    8.96875,
+    11.953125
+   ],
+   "l1_false_alarm_events": 2,
+   "cmd_windows_suppressed_by_cooldown": 17
+  },
+  {
+   "subject": 10,
+   "fold": 0,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 4,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9453125,
+    7.921875
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 17
+  },
+  {
+   "subject": 10,
+   "fold": 1,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.9375,
+    7.9140625
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 41
+  },
+  {
+   "subject": 10,
+   "fold": 2,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 2,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    7.984375,
+    12.953125
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 33
+  },
+  {
+   "subject": 10,
+   "fold": 3,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    6.9453125
+   ],
+   "l1_false_alarm_events": 1,
+   "cmd_windows_suppressed_by_cooldown": 62
+  },
+  {
+   "subject": 10,
+   "fold": 4,
+   "confirm": "imagery",
+   "n_commands": 6,
+   "detected": 6,
+   "completed": 1,
+   "duplicate_actions": 0,
+   "accidental": 0,
+   "idle_s": 60.0,
+   "latencies": [
+    8.953125
+   ],
+   "l1_false_alarm_events": 0,
+   "cmd_windows_suppressed_by_cooldown": 45
+  }
+ ],
+ "summary": {
+  "none": {
+   "commands": 300,
+   "detected": 285,
+   "completed": 285,
+   "success": 0.95,
+   "duplicate_actions": 0,
+   "idle_hours": 0.8333333333333334,
+   "accidental": 23,
+   "accidental_per_hour": 27.599999999999998,
+   "median_latency_s": 3.9921875,
+   "l1_detect": 0.95,
+   "l1_fa_per_hour": 27.599999999999998,
+   "cooldown_suppressed_windows": 1660
+  },
+  "repeat": {
+   "commands": 300,
+   "detected": 259,
+   "completed": 205,
+   "success": 0.6833333333333333,
+   "duplicate_actions": 0,
+   "idle_hours": 0.8333333333333334,
+   "accidental": 5,
+   "accidental_per_hour": 6.0,
+   "median_latency_s": 7.9140625,
+   "l1_detect": 0.8633333333333333,
+   "l1_fa_per_hour": 26.4,
+   "cooldown_suppressed_windows": 1684
+  },
+  "imagery": {
+   "commands": 300,
+   "detected": 281,
+   "completed": 134,
+   "success": 0.44666666666666666,
+   "duplicate_actions": 0,
+   "idle_hours": 0.8333333333333334,
+   "accidental": 1,
+   "accidental_per_hour": 1.2,
+   "median_latency_s": 7.984375,
+   "l1_detect": 0.9366666666666666,
+   "l1_fa_per_hour": 27.599999999999998,
+   "cooldown_suppressed_windows": 1610
+  }
+ }
+}

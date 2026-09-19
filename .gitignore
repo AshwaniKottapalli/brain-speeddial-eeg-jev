@@ -10,3 +10,5 @@ __pycache__/
 results/speeddial_eegbci_*.json
 results/two_layer_rows_*.json
 results/jevgate*_eegbci_*.json
+results/demo_actions*.jsonl
+results/demo_screenshot.png
