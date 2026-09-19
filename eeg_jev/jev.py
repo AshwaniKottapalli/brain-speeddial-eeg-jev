@@ -10,7 +10,8 @@ os.makedirs(CACHE_DIR, exist_ok=True)
 
 
 class JevClient:
-    def __init__(self, mock: bool | None = None, budget_usd: float = 4.5, model: str = "jev-latest"):
+    def __init__(self, mock: bool | None = None, budget_usd: float = 4.5, model: str | None = None):
+        model = model or os.environ.get("JEV_MODEL", "jev-latest")
         key = os.environ.get("TYPESAFE_API_KEY")
         self.mock = (not key) if mock is None else mock
         self.model = model
